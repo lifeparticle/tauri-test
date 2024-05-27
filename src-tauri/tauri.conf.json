@@ -10,6 +10,14 @@
 		"version": "1.0.0"
 	},
 	"tauri": {
+		"updater": {
+			"active": true,
+			"endpoints": [
+				"https://github.com/tauri-test/tauri-test/releases/latest/download/latest.json"
+			],
+			"dialog": true,
+			"pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDlDMTdGQjY1RDk2RTY1RjkKUldUNVpXN1paZnNYbkFJd0dmVlZkUEZ5WktJUlRWVE5oMVFqVHZKV1E1WjlrWXpNNUV3bDFYUjcK"
+		},
 		"allowlist": {
 			"all": false,
 			"shell": {
