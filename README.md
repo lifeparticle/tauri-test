@@ -8,11 +8,15 @@ yarn tauri build
 
 `src-tauri/target/release/bundle/dmg`
 
+## https://github.com/tauri-apps/tauri-action
+
 ## https://github.com/tauri-apps/tauri/blob/dev/.gitignore
 
-## https://tauri.app/v1/guides/distribution/updater/
+## Asset and signature not found for the updater JSON. Skipping upload...
 
-## https://github.com/Loothound/Loothound
+- https://tauri.app/v1/guides/distribution/updater/
+
+- https://github.com/Loothound/Loothound
 
 ```yml
 - uses: tauri-apps/tauri-action@v0
@@ -21,3 +25,7 @@ env:
     TAURI_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
     TAURI_KEY_PASSWORD: ${{ secrets.TAURI_KEY_PASSWORD }}
 ```
+
+## [Tauri Part 9 - Multi-Platform Distribution (GitHub Actions) & Optimizations](https://www.youtube.com/watch?v=rHK2keBNSHo&ab_channel=elibro)
+
+# Error incorrect updater private key password: Wrong password for that key
