@@ -1,7 +1,9 @@
-# Tauri + React + Typescript
+## Error You must change the bundle identifier in `tauri.conf.json > tauri > bundle > identifier`. The default value `com.tauri.dev` is not allowed as it must be unique across applications.
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+## https://tauri.app/v1/guides/building/macos
 
-## Recommended IDE Setup
+```shell
+yarn tauri build
+```
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+`src-tauri/target/release/bundle/dmg`
