@@ -28,4 +28,6 @@ env:
 
 ## [Tauri Part 9 - Multi-Platform Distribution (GitHub Actions) & Optimizations](https://www.youtube.com/watch?v=rHK2keBNSHo&ab_channel=elibro)
 
-# Error incorrect updater private key password: Wrong password for that key
+## Error incorrect updater private key password: Wrong password for that key
+
+## https://tauri.app/v1/guides/distribution/sign-macos/
